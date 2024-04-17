@@ -23,7 +23,3 @@ jobs:
       - name: Run jest tests for CRUD and edge cases
         run: npm test
 
-      - name: Report test results
-        uses: mikehardy/jest-coverage-check-action@v1
-        with:
-          path: "test/jest-test-results.xml"
