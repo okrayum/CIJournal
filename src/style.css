@@ -1,0 +1,50 @@
+*, ::before, ::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0
+}
+
+body {
+  background-color: lightblue;
+}
+
+/* main container */
+.container {
+  max-width: 60%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* form styling */
+#journalForm input, #journalForm textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-family: 2rem;
+}
+
+#journalForm button {
+  padding: 10px 15px;
+  font-size: 2rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#journalEntries ul {
+  list-style: none;
+  padding: 0;
+}
+
+#journalEntries li {
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+#journalEntries h2 {
+  margin-top: 30px;
+}
+
+h1, h2 {
+  text-align: center;
+}
