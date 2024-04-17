@@ -1,1 +1,1 @@
-# CIJournal
+# CIJournal Project
