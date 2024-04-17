@@ -28,4 +28,4 @@ jobs:
         if: success() || failure()
         with:
           name: test-results
-          path: "./test/hest-junit.xml"
+          path: "./test/jest-junit.xml"
