@@ -17,8 +17,8 @@
 3. On the left select `CI Workflow for CI Journal`.
 4. Choose "Run workflow" form the `Run workflow` dropdown menu on the right.
 
-### Challenges Faced and Lessons Learned
+### Challenges Faced
 
-Setting up the CI workflow was pretty straight forward. My only issue with that part was finding the correct resources for the actions versions. The GitHub marketplace was good for that.
+Setting up the CI workflow was pretty straight forward. My only issue was finding the correct resources for the actions versions. GitHub marketplace was good for that.
 
-The hardest part of the assignment for me was creating the testing to go with the journal app. What I thought was simple, turned more complex with the test requiremnts. I at first didn't set the app with most of the required functionality. Figuring out a way to mock for testing purposes was new to me. I used ChatGPT for help with tests and refactoring of my app script to work with the tests correctly. React seems to be easier at creating front end projects like this, but more challenging to me creating the CI workflow.
+I faced the most challenges setting up testing for the edge cases. Mainly because I didn't build my app to handle such cases correctly at first. I did use ChatGPT to refactor my script file and the test file. Mocking the DOM to this extent for testing purposes was also new to me. 
