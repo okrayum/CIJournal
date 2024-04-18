@@ -15,13 +15,13 @@ let entries = [
     id: "1T",
     title: 'Second Entry',
     content: 'This is the second entry in the journal.',
-    date: new Date().toLocaleString(),
+    date: new Date()
   },
   {
     id: "0T",
     title: 'First Entry',
     content: 'This is the first entry in the journal.',
-    date: new Date().toLocaleString(),
+    date: new Date()
   },
 ];
 
@@ -36,8 +36,8 @@ function renderEntries() {
 
   entries.forEach((entry, index) => {
       const li = document.createElement("li");
-      const date = new Date(entry.date).toLocaleString();
-
+      const date = new Date(entry.date).toLocaleDateString("en-US");
+     
       li.innerHTML =`
           <h3>${entry.title}</h3>
           <p>${entry.content}</p>
