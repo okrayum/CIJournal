@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="10" failures="0" errors="0" time="1.332">
+  <testsuite name="CRUD Tests" errors="0" failures="0" skipped="0" timestamp="2024-04-18T02:38:35" time="0.563" tests="10">
+    <testcase classname="CRUD Tests Should create a new entry" name="CRUD Tests Should create a new entry" time="0.009">
+    </testcase>
+    <testcase classname="CRUD Tests Should render current journal entries" name="CRUD Tests Should render current journal entries" time="0.002">
+    </testcase>
+    <testcase classname="CRUD Tests Should be able to edit an entry" name="CRUD Tests Should be able to edit an entry" time="0.004">
+    </testcase>
+    <testcase classname="CRUD Tests Should be able to delete an entry" name="CRUD Tests Should be able to delete an entry" time="0.003">
+    </testcase>
+    <testcase classname="Edge Case Tests Should not be able to submit an empty input field" name="Edge Case Tests Should not be able to submit an empty input field" time="0.005">
+    </testcase>
+    <testcase classname="Edge Case Tests Should not be able to sumbit an entry over max character length" name="Edge Case Tests Should not be able to sumbit an entry over max character length" time="0.001">
+    </testcase>
+    <testcase classname="Edge Case Tests Should handle special characters in entry submission" name="Edge Case Tests Should handle special characters in entry submission" time="0.016">
+    </testcase>
+    <testcase classname="Edge Case Tests Should get error with invalid date input" name="Edge Case Tests Should get error with invalid date input" time="0.002">
+    </testcase>
+    <testcase classname="Edge Case Tests Should be able to handle concurrent entry submissions" name="Edge Case Tests Should be able to handle concurrent entry submissions" time="0.008">
+    </testcase>
+    <testcase classname="Edge Case Tests Unauthorized access" name="Edge Case Tests Unauthorized access" time="0">
+    </testcase>
+  </testsuite>
+</testsuites>
